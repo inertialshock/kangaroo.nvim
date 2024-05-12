@@ -62,7 +62,7 @@ require("kangaroo").setup {
 Once the `setup` method has been called, you can then map either `use_popup()` or `use_statusline()` to a keybinding.
 ```Lua
 -- Displays a popup window in the center of each visible window of the current tabpage
-vim.keymap.set("n", "<leader>s", require("kangaroo").use_popup)
+vim.keymap.set("n", "<leader>p", require("kangaroo").use_popup)
 -- Displays a statusline in each visible window of the current tabpage
-vim.keymap.set("n", "<leader>p", require("kangaroo").use_statusline)
+vim.keymap.set("n", "<leader>s", require("kangaroo").use_statusline)
 ```
