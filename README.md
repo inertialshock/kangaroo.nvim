@@ -24,6 +24,9 @@ require("kangaroo").setup {
     input_wait = true,
 
     -- Colors for the statusline
+    -- NOTE: The colors for both statusline and popup are the same as the colors for nvim. In other words,
+    -- only use the valid color names for 'ctermfg and ctermbg'. The values for 'fg' and 'bg' can be any valid
+    -- color names for 'ctermfg' or 'ctermbg' or any valid color code (e.g., "#123123")
     statusline = {
         active_win = { -- Refers to the window where Kangaroo was called from
             ctermfg = "White",
